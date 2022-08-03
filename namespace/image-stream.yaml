@@ -3,4 +3,6 @@ kind: ImageStream
 metadata:
   name: my-image-stream
   namespace: gitops-teste
-
+spec:
+  lookupPolicy:
+    local: false
